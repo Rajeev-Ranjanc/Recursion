@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MergeSort {
     public static void main(String[] args) {
-        int[] arr = {5, 4, 3, 2, 1};
+        int[] arr = {9 ,3 ,6 ,2, 0};
         mergeSortInPlace(arr, 0, arr.length);
         System.out.println(Arrays.toString(arr));
     }
@@ -73,7 +73,7 @@ public class MergeSort {
 
     private static void mergeInPlace(int[] arr, int s, int m, int e) {
         /*
-        Although this is not a correct way of In place Merge Sort
+        Although this is not a correct way of Inplace Merge Sort
          */
         int[] mix = new int[e - s];
 
