@@ -1,10 +1,10 @@
 package arrays;
 
-import java.lang.reflect.Array;
+
 import java.util.ArrayList;
 
 /*
-Linear search using recursion returning index of that elements if that element exist in the array otherwise returning -1;
+Linear search using recursion returning index of that elements if that element exists in the array otherwise returning -1;
  */
 public class LinearSearch {
     public static void main(String[] args) {
